@@ -7,7 +7,7 @@
 This project aims to predict the 0-100 km/h acceleration time of 2025 car models using a Multi-Layer Perceptron (MLP) Artificial Neural Network. The project involves a comprehensive data science pipeline consisting of data cleaning, feature engineering, and hyperparameter optimization using GridSearch. The goal is to establish a regression model that correlates technical specifications (such as horsepower and torque) with vehicle performance.
 
 **Türkçe**
-Bu proje, Çok Katmanlı Algılayıcı (MLP) Yapay Sinir Ağı kullanarak 2025 model araçların 0-100 km/s hızlanma sürelerini tahmin etmeyi amaçlamaktadır. Proje; veri temizleme, öznitelik mühendisliği ve GridSearch kullanarak hiperparametre optimizasyonu içeren kapsamlı bir veri bilimi hattından oluşmaktadır. Amaç, teknik özellikler (beygir gücü ve tork gibi) ile araç performansı arasında ilişki kuran bir regresyon modeli oluşturmaktır.
+Bu proje, Çok Katmanlı Algılayıcı (MLP) Yapay Sinir Ağı kullanarak araçların 0-100 km/s hızlanma sürelerini tahmin etmeyi amaçlamaktadır. Proje; veri temizleme, öznitelik mühendisliği ve GridSearch kullanarak hiperparametre optimizasyonu içeren kapsamlı bir veri bilimi hattından oluşmaktadır. Amaç, teknik özellikler (beygir gücü ve tork gibi) ile araç performansı arasında ilişki kuran bir regresyon modeli oluşturmaktır.
 
 ---
 
