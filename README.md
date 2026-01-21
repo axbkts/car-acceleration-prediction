@@ -1,21 +1,21 @@
-# Car Acceleration Prediction with MLP Regressor
+## Car Acceleration Prediction with MLP Regressor
 ### MLP Regressor ile Araç Hızlanma Tahmini
 
 ## Project Description / Proje Açıklaması
 
 **English**
-This project aims to predict the 0-100 km/h acceleration time of 2025 car models using a Multi-Layer Perceptron (MLP) Artificial Neural Network. The project involves a comprehensive data science pipeline consisting of data cleaning, feature engineering, and hyperparameter optimization using GridSearch. The goal is to establish a regression model that correlates technical specifications (such as horsepower and torque) with vehicle performance.
+This project aims to predict the 0-100 km/h acceleration time of car models using a Multi-Layer Perceptron (MLP) Artificial Neural Network. The project involves a comprehensive data science pipeline consisting of data cleaning, feature engineering, and hyperparameter optimization using GridSearch. The goal is to establish a regression model that correlates technical specifications (such as horsepower and torque) with vehicle performance.
 
 **Türkçe**
-Bu proje, Çok Katmanlı Algılayıcı (MLP) Yapay Sinir Ağı kullanarak araçların 0-100 km/s hızlanma sürelerini tahmin etmeyi amaçlamaktadır. Proje; veri temizleme, öznitelik mühendisliği ve GridSearch kullanarak hiperparametre optimizasyonu içeren kapsamlı bir veri bilimi hattından oluşmaktadır. Amaç, teknik özellikler (beygir gücü ve tork gibi) ile araç performansı arasında ilişki kuran bir regresyon modeli oluşturmaktır.
+Bu proje, Çok Katmanlı Algılayıcı (MLP) Yapay Sinir Ağı kullanarak araç modellerinin 0-100 km/s hızlanma sürelerini tahmin etmeyi amaçlamaktadır. Proje; veri temizleme, öznitelik mühendisliği ve GridSearch kullanarak hiperparametre optimizasyonu içeren kapsamlı bir veri bilimi hattından oluşmaktadır. Amaç, teknik özellikler (beygir gücü ve tork gibi) ile araç performansı arasında ilişki kuran bir regresyon modeli oluşturmaktır.
 
 ---
 
 ## Dataset and Features / Veri Seti ve Özellikler
 
-The dataset consists of technical specifications for 2025 car models. Unstructured data containing units and ranges were processed into numerical formats.
+The dataset consists of technical specifications for various car models. Unstructured data containing units and ranges were processed into numerical formats.
 
-Veri seti, 2025 model araçların teknik özelliklerini içermektedir. Birimler ve aralıklar içeren yapılandırılmamış veriler sayısal formatlara dönüştürülmüştür.
+Veri seti, çeşitli araç modellerinin teknik özelliklerini içermektedir. Birimler ve aralıklar içeren yapılandırılmamış veriler sayısal formatlara dönüştürülmüştür.
 
 * **Input Features (Girdi Değişkenleri):**
     * Horsepower (HP)
@@ -37,8 +37,8 @@ The project is divided into two main scripts:
 Proje iki ana betiğe ayrılmıştır:
 
 ### 1. Data Preprocessing (`data_preprocessing.py`)
-This script handles the cleaning of the raw "Cars Datasets 2025.csv".
-Bu betik, ham "Cars Datasets 2025.csv" dosyasının temizlenmesini sağlar.
+This script handles the cleaning of the raw dataset.
+Bu betik, ham veri setinin temizlenmesini sağlar.
 
 * **Regex Cleaning:** Removes non-numeric characters and units (e.g., "hp", "km/h", "$") from the dataset.
 * **Range Handling:** Identifies and removes rows containing ambiguous range values (e.g., "200-300").
